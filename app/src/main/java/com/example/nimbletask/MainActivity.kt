@@ -10,8 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val doubleThisArray = DoubleThisArray()
-        val answer = doubleThisArray.doubleTheArray(floatArrayOf(1.0f, 2.0f, 3.0f, 4.0f))
 
     }
 
